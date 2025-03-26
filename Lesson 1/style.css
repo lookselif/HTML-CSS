@@ -1,0 +1,13 @@
+p {
+    color: darkred;
+    font-size: 32px;
+}
+h2, h3{ color: blue}
+sub, sup {
+    color: chocolate;
+    font-size: 18px;
+}
+span{
+    color: deeppink;
+    font-size:40px;
+}
