@@ -1,0 +1,14 @@
+body { background: #c8c6c6;
+    h1 {background-color: rgba(18, 91, 186, 0.9);
+    width: 12%;}
+    h2 {background-color: rgba(153, 207, 250, 0.9);
+        width: 7%;}
+}
+span{
+    background-color: #a9fdad;
+    padding: 2px  2px;  }
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
