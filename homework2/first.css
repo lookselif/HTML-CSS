@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(144, 186, 146);
+}
+h1,p{
+    text-align: center;
+    padding: 25px 0 ;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 25px 0
+}
+.second{
+    height: 200px;
+    width: 200px;
+    background-color: #eabca0;
+    border: 3px solid rgb(62, 64, 64);
+    border-radius: 10px;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.second p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.second img{
+    height: 60%;
+}
