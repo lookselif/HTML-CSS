@@ -1,0 +1,18 @@
+.main{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e1c592;
+}
+.special{
+    background-color: darkred;
+    width: 100px;
+    height: 100px;
+    transition: 1.4s;
+}
+.special:hover{
+    border-radius: 50%;
+    background-color: gray;
+    transition: 1.4s;
+}
