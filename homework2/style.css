@@ -1,0 +1,47 @@
+.dron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #92e1ae;
+    padding: 15px;
+    gap: 20px;
+}
+.splash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: #e8cabc;
+}
+.p {
+    text-align: center;
+    padding: 20px;
+}
+.Indie{
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.Fjalla{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Dancing{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.Sedgwick{
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.Rubik{
+        font-family: "Rubik Pixels", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+
