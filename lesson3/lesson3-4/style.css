@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*----------------------header--------------------------*/
+.active-link{
+    color: #466a5d;
+}
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f3efef;
+    font-family: "Orbitron", sans-serif;
+
+}
+header div{
+    text-align: center;
+}
+header div h3{
+    font-size: 16px;
+}
+header nav ul{
+    display: flex;
+    gap: 20px
+}
+header nav a{
+    font-size: 20px;
+    color: #8e8e8e;
+}
+/*---------------------main---------------------*/
+main{
+    height: 90vh;
+    background-image: url("https://nationalparksofeurope.com/wp-content/uploads/2020/04/daniel-rauber-wOWEyyoFEyU-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    font-family: "Orbitron", sans-serif;
+}
+main p{
+    font-size: 20px;
+}
+main h1{
+    font-size: 100px;
+    letter-spacing: 35px;
+}
+main button{
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    transition: 1.6s;
+}
+main button:hover{
+    transform:scale(1.2);
+    transition: 1.6s;
+}
+/*--------------------------contact/aside---------------------------------*/
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    height: 90vh;
+    background-image: url("https://images.unsplash.com/photo-1607544481388-00ac90758923?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2Nod2FyendhbGR8ZW58MHx8MHx8fDA%3D");
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+aside h3{
+    font-size: 28px;
+}
+aside p{
+    text-align: center;
+    font-size: 22px;
+}
+aside ul{
+    font-size: 22px;
+    gap: 20px;
+}
