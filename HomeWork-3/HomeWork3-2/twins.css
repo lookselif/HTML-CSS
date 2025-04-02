@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 35px;
+}
+.upper-section{
+    background-color: pink;
+
+}
+.lower-section{
+    background-color: #1e1d1e;
+    color: white;
+}
+section p{
+    width: 90%;
+}
