@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+#top-section{
+    background-color: #f17767;
+}
+#middle-section{
+    background-color: #92e1ae;
+}
+#bottom-section{
+    background-color: #62b1ca;
+}
+section h3{
+    font-size: 36px;
+}
+section p{
+    width: 80%;
+}
+section a{
+    font-size: 36px;
+    color: #020202;
+}
