@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type : none;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+#section-home{
+    background-color: #92e1ae;
+}
+#section-about{
+    background-color: rgba(153, 207, 250, 0.9);
+}
+#section-info{
+    background-color: rgb(246, 162, 125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
