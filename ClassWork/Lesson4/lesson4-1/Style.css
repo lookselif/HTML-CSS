@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+/*-------------------------header--------------------*/
+
+.master{
+    width: 1070px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    font-family: "DM Sans", sans-serif;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+header nav ul a{
+    color: #696871;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.469px;
+}
+header button{
+    width: 211.02px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FF7143;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+
+.header__active-link{
+    color: #19191B;
+    border-bottom: 2px solid #5454D4;
+}
+/*----------------section---------------*/
+.man{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 68px;
+}
+
+.man div h2{
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: -2.501px;
+    width: 440px;
+    height: 231px
+}
+.man div p{
+    color: #696871;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.625px;
+    width: 410px;
+    margin: 30px 0 50px 0;
+}
+.man div button{
+    border-radius: 10px;
+    background: #5454D4;
+    width: 188.211px;
+    height: 60px;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+}
+/*---------------section-logos----------------*/
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 210px 0 170px 0 ;
+}
+/*-------------------section-pencil----------*/
+.pencil div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+    .pencil {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .pencil h3{
+        color: #19191B;
+        font-family: "DM Sans";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57px; /* 114% */
+        letter-spacing: -1.563px;
+        width: 556px;
+    }
+    .pencil p{
+        color: #696871;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+        letter-spacing: -0.625px;
+        width: 459px;
+        padding: 30px 0;
+    }
+    .pencil a{
+        color: #5454D4;
+        font-family: "DM Sans" ;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.531px;
+
+    }
+
