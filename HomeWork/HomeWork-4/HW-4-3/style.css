@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+header{
+     height: 5vh;
+     background: #D9D9D9;
+}
+main{
+    height: 75vh;
+    display: flex;
+}
+footer{
+    height: 20vh;
+    background: #AFA9A9;
+}
+main section{
+    height: 100%;
+    width: 60vw;
+    background: #A4A4A4;
+}
+.light{
+    height: 40vh;
+    width: 40vw;
+    background: #7F7A7A;
+}
+.dark{
+    height: 35vh;
+    width: 40vw;
+    background: #615050;
+}
+.section__top{
+    height: 9vh;
+    background: #D9D9D9;
+}
+.section__bot{
+    height:11vh;
+    background: #AFA9A9;
+}
