@@ -6,8 +6,31 @@
   <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <style>
+.pink-box{
+    width: 200px;
+    height: 200px;
+    background-color: deeppink;
+    margin: 100px auto 0 auto;
+    animation: pink 5s linear infinite alternate;
+}
+@keyframes pink{
+    from{
+         transform: scale(1.5);
+    }
+    50%{
+        border-radius: 25px;
+    }
+    to{
+        transform: scale(1);
+        background-color: yellow;
+    }
+}
+    </style>
 </head>
 <body>
+<div class="pink-box">
 
+</div>
 </body>
 </html>
