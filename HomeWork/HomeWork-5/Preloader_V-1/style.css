@@ -1,0 +1,27 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 100px auto;
+    animation: loading 6s linear infinite;
+    outline: 15px dashed #a453da;
+}
+@keyframes loading{
+    from{
+
+        transform: rotate(0deg);
+    }
+    50%{
+        color: #75b502;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
