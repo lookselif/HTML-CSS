@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  form  sup{
+    color: red;
+    font-size: 20px;
+  }
+  textarea {
+      resize: none;
+  }
+  .form-registration{
+      width: 25%;
+      border: 5px solid black;
+      border-radius: 10px;
+      padding: 100px;
+  }
+  input[type=email]{
+      background-color: #ecbebe;
+      color: #0707d5;
+      border-radius: 3px;
+      border: 5px solid #022704;
+  }
+  input[type=email]::placeholder{
+      color: rgba(3, 49, 85, 0.9);
+  }
+  input[type=text]:focus{
+      border: 5px solid #bd0909;
+  }
+</style>
+</head>
+<body>
+<form class="form-registration">
+<label for="name"> name</label>
+    <input type="text" name="name" placeholder="Enter your name" required id="name"><sup>*</sup>
+  <label for="email"> email</label>
+    <input type="email" placeholder="Enter your email" id="email" name="email" required><sup>*</sup>
+
+    <label for="password"> password</label>
+    <input type="password" placeholder="password" id="password" name="password" required><sup>*</sup>
+
+    <label for="number"> age</label>
+    <input type="number" id="number" name="age" min="18" max="99" >
+
+    <label> gender</label>
+    <label> <input type="radio" name="gender" value="female">women</label>
+        <label> <input type="radio" name="gender" value="male">men</label>
+
+    <label>
+        <input type="checkbox" name="newsletter">news
+    </label>
+
+    <label for="country">country</label>
+    <select id="country">
+        <option value="">=/=</option>
+        <option value="Portugal">Portugal</option>
+        <option value="australia">Australia</option>
+        <option value="USA">USA</option>
+    </select>
+
+    <label for="phone">phone</label>
+        <select id="phone">
+            <optgroup label="Apple"></optgroup>
+            <option value="xr">IPhoneXR</option>
+            <option value="xs">IPhoneXS</option>
+            <optgroup label="ASUS"></optgroup>
+            <option value="rog">ASUS ROG</option>
+            <option value="tuf gaming">ASUS TUF GAMING</option>
+        </select>
+<label for="coment">coment</label>
+    <textarea id="coment" rows="2" cols="20">
+    </textarea>
+
+
+    <div>
+        <input type="submit" value="enter">
+        <input type="reset" value="reset">
+    </div>
+
+</form>
+
+</body>
+</html>
