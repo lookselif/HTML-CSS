@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.main-div{
+    height: 70vh;
+    width: 25vw;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #cccccc;
+    padding: 15px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{ margin: 0;
+    font-size: 90px;
+    padding: 35px 0;
+    font-family: "Engagement", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+div>form>input{
+    height: 30px;
+    width: 250px;
+    margin: 10px 0;
+}
+footer{
+    margin-top: 15px;
+    border: 3px solid #e1dfdf;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="submit"] {
+    background-color: #68b5fa;
+    border: 1px solid #68b5fa;
+    border-radius: 8px;
+    width: 260px;
+    color: white;
+    font-size: 18px;
+}
+a,p {
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+}
+.form a{
+    padding: 10px;
+    color: #3F51B5;
+}
+.icon::before{
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url("https://img.icons8.com/?size=100&id=13912&format=png&color=000000");
+    background-size: cover;
+    vertical-align: bottom;
+}
+footer>div>p>a{
+    color: #68b5fa;
+}
+.form p{
+    color: #bcb9b9;
+    font-size: 16px;
+}
+
+
