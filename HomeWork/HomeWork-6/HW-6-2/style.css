@@ -45,7 +45,7 @@ input[type="text"], input[type="password"]{
     width: 400px;
     padding-top: 20px;
 }
-.checkbox>input[type="submit"]{
+input[type="submit"]{
     background-color: rgb(161, 227, 185);
     border: 1px solid darkgrey;
     border-radius: 10px;
