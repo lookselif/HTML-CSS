@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 .form-registration{
     height: 35vh;
@@ -25,7 +25,7 @@ body {
 
 .form-registration div:nth-child(1) h1{
     font-size: 30px;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 .form-registration form{
     display: flex;
