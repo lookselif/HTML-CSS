@@ -1,0 +1,5 @@
+@media screen  and (max-width: 480px) {
+    .item2{
+        background-color: rgba(179, 153, 66, 0.71);
+    }
+}

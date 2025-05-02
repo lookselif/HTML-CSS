@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+body{
+    font-size: 20px;
+}
+header, footer {
+    width: 100%;
+    height: 20vh;
+    background: rgb(142, 142, 142);
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+main{
+    height: 60vh;
+    width: 70%;
+    background: #746383;
+}
+aside{
+    height: 60vh;
+    width: 30%;
+    background: #658571;
+}
+section{
+    display: none;
+}
+header p::after{
+    content: "desktop";
+}
+main,aside,footer{
+    font-size: 1.4em;
+}

@@ -1,0 +1,8 @@
+@media screen  and (min-width: 481px) and (max-width: 768px) {
+    .item1{
+        background-color: rgba(151, 135, 135, 0.9);
+    }
+    .item3{
+        background-color: #f6a27d;
+    }
+}
