@@ -2,9 +2,9 @@
     .containers{
         padding: 32px 16px;
         gap: 40px;
-        width: 375px;
+        width: 100%;
     }
     .container{
-        width: 343px;
+        width: 100%;
     }
 }
