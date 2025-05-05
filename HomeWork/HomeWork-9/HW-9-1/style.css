@@ -1,0 +1,25 @@
+*{
+    margin:0;
+}
+.wrapper{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 22% 56% 22%;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+header{
+    grid-area: header;
+    background-color:#D9D9D9;
+}
+main{
+    grid-area: main;
+    background-color: #A4A4A4;
+}
+footer{
+    grid-area: footer;
+    background-color: #D9D9D9;
+}
